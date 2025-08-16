@@ -1,0 +1,33 @@
+{
+  "name": "spotitai",
+  "version": "1.0.0",
+  "description": "Skin disease classifier web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-architect-1/spotItAI.git"
+  },
+  "keywords": [
+    "skin",
+    "disease",
+    "classifier"
+  ],
+  "author": "Ankit, Lavisha, me, Siddharth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-architect-1/spotItAI/issues"
+  },
+  "homepage": "https://github.com/code-architect-1/spotItAI#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
